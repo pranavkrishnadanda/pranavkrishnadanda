@@ -14,7 +14,7 @@ I learn fastest by building. Lately I’m obsessed with **multimodal AI** and th
 
 - **MergeSignal** — pre-merge risk intelligence for safer code reviews
 - **Agent infrastructure experiments** around MCP, evals, and fail-closed validation
-- Writing about production AI, backend design, and lessons from breaking things at [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
+- Writing about production AI, backend design decisions, and lessons from breaking things at [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
 
 ---
 
@@ -22,10 +22,10 @@ I learn fastest by building. Lately I’m obsessed with **multimodal AI** and th
 
 | Project | What it is | Stack |
 |---|---|---|
-| [Aether-MCP](https://github.com/pranavkrishnadanda/Aether-MCP) | Reference MCP server for clinical-adjacent workflows with structured logging and caching | Python, FastAPI, MCP, PostgreSQL, Redis |
-| [DecisionVault](https://github.com/pranavkrishnadanda/DecisionVault) | Decision-tracking system with real-time collaboration | Python, TypeScript |
-| [Autonomous AI Coding Assistant](https://github.com/pranavkrishnadanda/Autonomous-AI-Coding-Assistant) | MCP-powered coding assistant for file operations and project management | Python, Claude API, MCP |
-| [AirDoc](https://github.com/pranavkrishnadanda/AirDoc) | Touch-free PDF/image viewer controlled by hand gestures | Python, OpenCV, MediaPipe |
+| [DecisionVault](https://github.com/pranavkrishnadanda/DecisionVault) | Production-grade Slack OAuth + channel discovery + encrypted token storage for a multi-tenant SaaS app | Django, Next.js, PostgreSQL, Redis |
+| [Memora](https://github.com/pranavkrishnadanda/Memora) | Multi-agent system with adaptive memory, dynamic roles, and continuous learning | Python, FastAPI, PostgreSQL, Valkey |
+| [Autonomous AI Coding Assistant](https://github.com/pranavkrishnadanda/Autonomous-AI-Coding-Assistant) | MCP-powered coding assistant with file operations, code review, and project management | Python, MCP, Claude API |
+| [AI Observability Platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time AI anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
 
 > Most of my production work at Oovacha is proprietary and lives outside public repos.
 
@@ -47,4 +47,4 @@ Read more: [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
 - 🌐 [Portfolio](https://pranavkrishnadanda.github.io/)
 - ✉️ pranavkrishna317@gmail.com
 
-I’m always open to interesting projects, hackathons, and conversations with people who like building useful things.
+I’m always open to interesting projects, hackathons, and conversations with people who want to build useful things together.
