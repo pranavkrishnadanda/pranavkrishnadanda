@@ -1,34 +1,50 @@
-# 💫 About Me:
-**Software Engineer | Backend & AI Systems**
+# Hi, I'm Pranav Krishna Danda
 
-A results-driven engineer focused on delivering scalable backend systems and autonomous AI workflows. I specialize in designing microservices with **Java Spring Boot** and **Python (Django/FastAPI)**, integrating cloud-native technologies, and orchestrating **AI Agent Teams** using the Model Context Protocol (MCP). I am committed to building high-performance, secure solutions that solve complex architectural challenges.
+**Software Engineer · AI Systems Builder · I turn messy problems into working products**
 
-### 🚀 What I'm Up To:
-* 🔭 **I’m currently working on:** Architecting distributed backend systems and developing autonomous AI Agent workflows.
-* 👯 **I’m looking to collaborate on:** Multi-agent systems, open-source backend tools, or high-performance Python frameworks.
-* 🤝 **I’m looking for help with:** Mastering Large-scale System Design patterns and deep-diving into microservices optimization.
-* 🌱 **I’m currently learning:** Advanced DSA for systems and the orchestration of AI Agent Teams.
-* 💬 **Ask me about:** Java, Python, Backend Architecture, AI Agents, or DSA.
-* ⚡ **Fun fact:** I believe a well-optimized algorithm is as satisfying as the tactile click of a perfectly tuned mechanical keyboard.
+I get genuinely excited by problems that look messy at first. I’m a software engineer in Hyderabad who spends most of my time building **AI agents and backend systems** that have to work in the real world — with real users, real data, and real pressure.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/pranav_krishna_317) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranavkrishnadanda/) 
+Currently at **Oovacha**, where I ship production AI agents and distributed pipelines for clinical data workflows. Before that, I built RAG chatbots, classification models, and Django APIs at **Mushroom Solutions**.
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=21bq1a4232&theme=city_light&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=21bq1a4232&theme=city_light&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=21bq1a4232&theme=city_light&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=21bq1a4232&limit=5&theme=buddhism&combine_all_yearly_contributions=true)
+I learn fastest by building. Lately I’m obsessed with **multimodal AI** and the infrastructure that makes AI agents safe, observable, and actually deployable.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=21bq1a4232&icon=0&color=0)](https://visitcount.itsvg.in)
+
+## What I’m building now
+
+- **MergeSignal** — pre-merge risk intelligence for safer code reviews
+- **Agent infrastructure experiments** around MCP, evals, and fail-closed validation
+- Writing about production AI, backend design, and lessons from breaking things at [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
+
+---
+
+## Selected projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [Aether-MCP](https://github.com/pranavkrishnadanda/Aether-MCP) | Reference MCP server for clinical-adjacent workflows with structured logging and caching | Python, FastAPI, MCP, PostgreSQL, Redis |
+| [DecisionVault](https://github.com/pranavkrishnadanda/DecisionVault) | Decision-tracking system with real-time collaboration | Python, TypeScript |
+| [Autonomous AI Coding Assistant](https://github.com/pranavkrishnadanda/Autonomous-AI-Coding-Assistant) | MCP-powered coding assistant for file operations and project management | Python, Claude API, MCP |
+| [AirDoc](https://github.com/pranavkrishnadanda/AirDoc) | Touch-free PDF/image viewer controlled by hand gestures | Python, OpenCV, MediaPipe |
+
+> Most of my production work at Oovacha is proprietary and lives outside public repos.
+
+---
+
+## What I write about
+
+- Building production AI agents without breaking things
+- Why backend design decisions matter more than framework choice
+- Lessons from shipping multimodal LLM pipelines in regulated environments
+
+Read more: [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
+
+---
+
+## Let’s connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/pranavkrishnadanda)
+- 🌐 [Portfolio](https://pranavkrishnadanda.github.io/)
+- ✉️ pranavkrishna317@gmail.com
+
+I’m always open to interesting projects, hackathons, and conversations with people who like building useful things.
