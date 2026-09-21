@@ -2,7 +2,7 @@
 
 **Software Engineer · AI Systems Builder · I turn messy problems into working products**
 
-I get genuinely excited by problems that look messy at first. I’m a software engineer in Hyderabad who spends most of my time building **AI agents and backend systems** that have to work in the real world — with real users, real data, and real pressure.
+I get genuinely excited by problems that look messy at first. I’m a software engineer who spends most of my time building **AI agents and backend systems** that have to work in the real world — with real users, real data, and real pressure.
 
 Currently at **Oovacha**, where I ship production AI agents and distributed pipelines for clinical data workflows. Before that, I built RAG chatbots, classification models, and Django APIs at **Mushroom Solutions**.
 
