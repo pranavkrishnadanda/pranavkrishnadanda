@@ -2,49 +2,50 @@
 
 **Software Engineer · AI Systems Builder · I turn messy problems into working products**
 
-I get genuinely excited by problems that look messy at first. I’m a software engineer who spends most of my time building **AI agents and backend systems** that have to work in the real world — with real users, real data, and real pressure.
+I build production AI agents and the backend systems that keep them reliable, observable, and safe in regulated environments. Most of my work happens at the intersection of **distributed backend infrastructure**, **LLM systems**, and **real-world deployment constraints**.
 
-Currently at **Oovacha**, where I ship production AI agents and distributed pipelines for clinical data workflows. Before that, I built RAG chatbots, classification models, and Django APIs at **Mushroom Solutions**.
+Currently at **Oovacha**, shipping autonomous clinical agents across 27 trial sites. Before that, I built RAG chatbots, classification models, and Django APIs at **Mushroom Solutions**.
 
-I learn fastest by building. Lately I’m obsessed with **multimodal AI** and the infrastructure that makes AI agents safe, observable, and actually deployable.
-
----
-
-## What I’m building now
-
-- **MergeSignal** — pre-merge risk intelligence for safer code reviews
-- **Agent infrastructure experiments** around MCP, evals, and fail-closed validation
-- Writing about production AI, backend design decisions, and lessons from breaking things at [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
+I learn fastest by shipping. Right now I'm focused on agent infrastructure, fail-closed validation, and making AI systems actually deployable.
 
 ---
 
 ## Selected projects
 
-| Project | What it is | Stack |
+| Project | What it does | Stack |
 |---|---|---|
-| [DecisionVault](https://github.com/pranavkrishnadanda/DecisionVault) | Production-grade Slack OAuth + channel discovery + encrypted token storage for a multi-tenant SaaS app | Django, Next.js, PostgreSQL, Redis |
-| [Memora](https://github.com/pranavkrishnadanda/Memora) | Multi-agent system with adaptive memory, dynamic roles, and continuous learning | Python, FastAPI, PostgreSQL, Valkey |
-| [Autonomous AI Coding Assistant](https://github.com/pranavkrishnadanda/Autonomous-AI-Coding-Assistant) | MCP-powered coding assistant with file operations, code review, and project management | Python, MCP, Claude API |
-| [AI Observability Platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time AI anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
+| [MergeSignal](https://github.com/pranavkrishnadanda/MergeSignal) | Pre-merge risk intelligence: detects git conflicts, semantic breakage, cross-PR overlap, and risk scores before the merge button is pressed | Python, FastAPI |
+| [quill-agent](https://github.com/pranavkrishnadanda/quill-agent) | AI agent for automating job-application form filling, kept on the human-in-the-loop side of the line | TypeScript, Python, FastAPI, Chrome MV3 |
+| [Aura](https://github.com/pranavkrishnadanda/Aura) | Clinical intelligence assistant that answers from indexed guidelines with traceable citations | Python, RAG |
+| [adaptive-agent-room](https://github.com/pranavkrishnadanda/adaptive-agent-room) | Dynamic multi-agent room where roles are generated per task, not hardcoded | Python, FastAPI, PostgreSQL, Valkey |
+| [ai-observability-platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time AI anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
+| [Aether-MCP](https://github.com/pranavkrishnadanda/Aether-MCP) | Production-style MCP server reference for clinical-adjacent workflows | Python, MCP, FastAPI |
 
 > Most of my production work at Oovacha is proprietary and lives outside public repos.
 
 ---
 
-## What I write about
+## Open source
 
-- Building production AI agents without breaking things
-- Why backend design decisions matter more than framework choice
-- Lessons from shipping multimodal LLM pipelines in regulated environments
-
-Read more: [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev)
+- [botocore#3803](https://github.com/boto/botocore/pull/3803) — Fix for a `ReferenceError` in `RequestSigner` when the signer outlives its session.
 
 ---
 
-## Let’s connect
+## What I write about
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/pranavkrishnadanda)
-- 🌐 [Portfolio](https://pranavkrishnadanda.github.io/)
-- ✉️ pranavkrishna317@gmail.com
+I document engineering decisions, failure modes, and lessons from building AI systems in production:
 
-I’m always open to interesting projects, hackathons, and conversations with people who want to build useful things together.
+- [I Gave an AI Agent Access to a Production Database](https://pranavkrishna.hashnode.dev/i-gave-an-ai-agent-access-to-a-production-database-here-s-what-actually-happened)
+- [Building a Thinking-First Multi-Agent Room](https://pranavkrishna.hashnode.dev/building-a-thinking-first-multi-agent-room-not-another-fake-agent-demo)
+
+More at [pranavkrishna.hashnode.dev](https://pranavkrishna.hashnode.dev).
+
+---
+
+## Let's connect
+
+- [LinkedIn](https://www.linkedin.com/in/pranavkrishnadanda/)
+- [Portfolio](https://pranavkrishnadanda.github.io/)
+- [Email](mailto:pranavkrishna317@gmail.com)
+
+Open to full-time Software Engineer roles focused on **AI systems**, **backend infrastructure**, and **distributed systems**. Remote-first, globally.
