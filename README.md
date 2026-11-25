@@ -20,7 +20,7 @@ Right now I'm focused on reliable backends, fail-closed validation of LLM output
 | [Aura](https://github.com/pranavkrishnadanda/Aura) | Clinical question answering from indexed guidelines; citations checked server-side, refuses when nothing relevant is indexed; 329 tests incl. Playwright | Python, FastAPI, Next.js, Postgres + pgvector |
 | [ai-observability-platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
 
-Driftline and Sluice were designed by me and built with AI coding agents; I review every change and the tests and CI check it.
+Driftline and Sluice were designed by me and built with AI coding agents; every change is checked by the tests and CI.
 
 > Most of my production work at Oovacha is proprietary and lives outside public repos.
 
