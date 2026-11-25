@@ -14,10 +14,13 @@ Right now I'm focused on reliable backends, fail-closed validation of LLM output
 
 | Project | What it does | Stack |
 |---|---|---|
+| [Driftline](https://github.com/pranavkrishnadanda/Driftline) · [live demo](https://pranavkrishnadanda.github.io/Driftline/demo/) | Version-aware knowledge engine: answers only from documents in force on a given date, with verified citations. 0% outdated citations vs 20.8% for plain RAG on FDA drug labels (40-question sample, real Claude) | Python, FastAPI, LangGraph, Postgres + pgvector, Redis Streams, Next.js |
+| [Sluice](https://github.com/pranavkrishnadanda/sluice) | Self-planning agentic pipeline for drifting data files; accuracy graded by code against exact ground truth; 1,371 tests | Python, FastAPI, DuckDB, Polars, LiteLLM, Postgres |
 | [MergeSignal](https://github.com/pranavkrishnadanda/MergeSignal) | Flags merges that git reports as clean but that break at runtime; tree-sitter across 6 languages, 643 tests, published on PyPI | Python, tree-sitter |
-| [Aura](https://github.com/pranavkrishnadanda/Aura) | Clinical intelligence assistant that answers from indexed guidelines with traceable citations | Python, RAG |
-| [adaptive-agent-room](https://github.com/pranavkrishnadanda/adaptive-agent-room) | Dynamic multi-agent room where roles are generated per task, not hardcoded | Python, FastAPI, PostgreSQL, Valkey |
-| [ai-observability-platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time AI anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
+| [Aura](https://github.com/pranavkrishnadanda/Aura) | Clinical question answering from indexed guidelines; citations checked server-side, refuses when nothing relevant is indexed; 329 tests incl. Playwright | Python, FastAPI, Next.js, Postgres + pgvector |
+| [ai-observability-platform](https://github.com/pranavkrishnadanda/ai-observability-platform) | Distributed log ingestion and real-time anomaly detection with Kafka + Claude Haiku | FastAPI, Kafka, Redis, PostgreSQL, React |
+
+Driftline and Sluice were designed by me and built with AI coding agents; I review every change and the tests and CI check it.
 
 > Most of my production work at Oovacha is proprietary and lives outside public repos.
 
